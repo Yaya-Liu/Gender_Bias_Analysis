@@ -98,15 +98,6 @@ ggplot(data = NewEmployee1, aes(x = Years, y = StSalary)) +
   theme(plot.title = element_text(hjust = 0.5)) 
 
 
-#Calculate correlation coefficient
-cor(NewEmployee1$StSalary, NewEmployee1$Years)
-
-#Calculate P-value
-PVModel <- lm(NewEmployee1$StSalary~NewEmployee1$Years, data = NewEmployee1)
-summary(PVModel)
-
-
-
 #d2 Years of Experience and Starting Salary for each gender 
 ggplot(data = NewEmployee1, aes(x = Years, y = StSalary, shape = Gender, fill = Gender, color = Gender)) +
   geom_jitter(size = 3) +
@@ -131,4 +122,14 @@ ggplot(data = NewEmployee1, aes(x = Years, y = StSalary, shape = Degree, fill = 
     y = "Starting Salary(thousands)"
   ) +
   theme(plot.title = element_text(hjust = 0.5)) 
+
+#e Calculate correlation coefficient between Starting Salary and Years of Experience
+cor(NewEmployee1$StSalary, NewEmployee1$Years)
+
+#e Calculate P-value
+PVModel <- lm(NewEmployee1$StSalary~NewEmployee1$Years, data = NewEmployee1)
+summary(PVModel)
+
+#e1 Calculate correlation coefficient between Starting Salary and Years of Experience(Female)
+
 
