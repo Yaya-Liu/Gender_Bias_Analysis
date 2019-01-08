@@ -1,6 +1,7 @@
 # R-Dataset-Exploration: Gender Bias Analysis
 
 Purpose: 
+	
 	- RStudio Practice
 	- Whether the Acme corporation has gender bias by analyzing starting salaries 
 	they provided for newly hired workers?
