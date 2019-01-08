@@ -38,7 +38,9 @@ e) is there a correlation between Starting Salary and Years of Experience?  - Co
 	
 f) what can you conclude about Acme with respect to gender bias?
 
-	- Female with 1 – 6 years of experience get lower average starting salary than male with the same years of experience and the 		same educational degree. (There is only one female employee with more than 6 years of experience, so it is hard to draw 		conclusion between 7-10 years)
+	- Female with 1 – 6 years of experience get lower average starting salary than male with the same years of experience 
+	and the same educational degree. (There is only one female employee with more than 6 years of experience, so it is hard 
+	to draw conclusion between 7-10 years)
 
 	- There is only one female with more than 6 years of experience, and there are 14 males with more than 6 years of experience. 
 
