@@ -131,5 +131,22 @@ PVModel <- lm(NewEmployee1$StSalary~NewEmployee1$Years, data = NewEmployee1)
 summary(PVModel)
 
 #e1 Calculate correlation coefficient between Starting Salary and Years of Experience(Female)
+Female_data <- dplyr::filter(NewEmployee1, grepl("F", NewEmployee1$Gender))
+cor(Female_data$StSalary, Female_data$Years)
 
+#e1 Calculate correlation coefficient between Starting Salary and Years of Experience(Male)
+Male_data <- dplyr::filter(NewEmployee1, grepl("M", NewEmployee1$Gender))
+cor(Male_data$StSalary, Male_data$Years)
+
+#e2 Calculate correlation coefficient between Starting Salary and Years of Experience(BS degree)
+BS_data <- dplyr::filter(NewEmployee1, grepl("BS", NewEmployee1$Degree))
+cor(BS_data$StSalary, BS_data$Years)
+
+#e2 Calculate correlation coefficient between Starting Salary and Years of Experience(MS degree)
+MS_data <- dplyr::filter(NewEmployee1, grepl("MS", NewEmployee1$Degree))
+cor(MS_data$StSalary, MS_data$Years)
+
+#e2 Calculate correlation coefficient between Starting Salary and Years of Experience(PhD)
+PhD_data <- dplyr::filter(NewEmployee1, grepl("PhD", NewEmployee1$Degree))
+cor(PhD_data$StSalary, PhD_data$Years)
 
