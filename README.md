@@ -25,7 +25,9 @@ d) display the relationship between
 	
  	Years of Experience and Starting Salary for each degree
   
-e) is there a correlation between Starting Salary and Years of Experience?  - Correlation coefficient = 0.69
+e) is there a correlation between Starting Salary and Years of Experience?  
+	- There is a strong correlation between starting salary and years of experience. 
+	- The Correlation coefficient = 0.69
 
 	is it different for each gender?  
 		- Correlation coefficient(Female) = 0.74
