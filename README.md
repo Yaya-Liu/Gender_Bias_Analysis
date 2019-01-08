@@ -1,5 +1,9 @@
 # R-Dataset-Exploration: Gender Bias Analysis
-Whether the Acme corporation has gender bias by analyzing starting salaries they provided for newly hired workers?
+
+Purpose: 
+	- RStudio Practice
+	- Whether the Acme corporation has gender bias by analyzing starting salaries 
+	they provided for newly hired workers?
 
 
 The Acme corporation is accused of gender bias in 
@@ -9,7 +13,8 @@ data of new hires, showing college degree (BS, MS, PhD),
 gender (M, F), years of previous experience, and 
 starting salary (thousands of dollars).
 
-Using RStudio 1.1.456, explore the Acme.csv dataset:
+
+Here are the roblems have been solved in code:
 
 a) identify the data types in the dataset
 
@@ -41,10 +46,11 @@ e) is there a correlation between Starting Salary and Years of Experience?
 	
 f) what can you conclude about Acme with respect to gender bias?
 
-	- Female with 1 – 6 years of experience get lower average starting salary than male with the same years of experience 
-	and the same educational degree. (There is only one female employee with more than 6 years of experience, so it is hard 
-	to draw conclusion between 7-10 years)
+	- Female with 1 – 6 years of experience get lower average starting salary than male with the same years 
+	of experience and the same educational degree. (There is only one female employee with more than 6 years
+	of experience, so it is hard to draw conclusion between 7-10 years)
 
-	- There is only one female with more than 6 years of experience, and there are 14 males with more than 6 years of experience. 
+	- There is only one female with more than 6 years of experience, and there are 14 males with more than 6 years
+	of experience. 
 
 
