@@ -150,3 +150,5 @@ cor(MS_data$StSalary, MS_data$Years)
 PhD_data <- dplyr::filter(NewEmployee1, grepl("PhD", NewEmployee1$Degree))
 cor(PhD_data$StSalary, PhD_data$Years)
 
+
+
